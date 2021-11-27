@@ -11,4 +11,9 @@ DIONYSIA_TOKEN being a JWT token that you can obtain from /api/student/login
 (normally they last for a month or so) and the API URL you can find out by
 inspecting the phone App (you know which one).
 
+To run:
+
+	python3 -m venv .venv
+	source .venv/bin/activate
+	python3 -m pip install -r requirements.txt
 
