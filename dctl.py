@@ -1,7 +1,13 @@
 #!/usr/bin/env python3
 import sys
+import os
+
+Token=os.environ.get('DIONYSIA_TOKEN')
+ApiUrl=os.environ.get('DIONYSIA_API_URL')
 
 def calendar(date):
+    print(Token)
+    print(ApiUrl)
     print(date)
 
 if __name__ == '__main__':
