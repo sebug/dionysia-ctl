@@ -21,7 +21,7 @@ def calendar(date):
             print('By ' + coach['name'])
         print('with')
         for student in lesson['students']:
-            print(' - ' + student['name'])
+            print(' ' + str(student['status']) + ' ' + student['name'])
 
 if __name__ == '__main__':
     if len(sys.argv) > 1:
